@@ -1,5 +1,8 @@
 # google-clone
 
+# To Run the application
+just run the index.html file or click live server in index.html page
+
 # Tech Stack
 
 HTML5:
