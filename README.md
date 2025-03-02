@@ -1,6 +1,6 @@
 # google-clone
 
-#Tech Stack
+# Tech Stack
 
 HTML5:
 Provides the basic structure of the web application, allowing you to define elements like the menu bar, formula bar, grid container, and sheets container.
@@ -17,7 +17,7 @@ Integrated via CDN to provide scalable vector icons for various UI elements like
 SheetJS (xlsx):
 Included via CDN for potential export functionality (e.g., exporting the sheet data to an Excel file), enhancing the application's capability to interact with popular file formats.
 
-#Data Structures
+# Data Structures
 
 2D Array (Grid Database):
 The core data structure is a two-dimensional array (sheetsDB) that mimics the layout of a spreadsheet. Each element of this array represents a row, which in turn is an array of cell objects. This structure allows for direct access and updates to any cell using its row and column indices.
@@ -34,7 +34,7 @@ This object-based approach makes it easy to extend functionality, such as adding
 Event Listeners:
 The application uses event listeners on cells (e.g., click, blur, and keydown events) to provide a two-way binding between the UI and the underlying data. When a user interacts with a cell, the corresponding cell object in the 2D array is updated, and vice versa, ensuring the UI always reflects the current state of the data.
 
-#Why These Choices?
+# Why These Choices?
 
 Natural Mapping to Spreadsheets:
 The 2D array directly mirrors the row-and-column layout of traditional spreadsheets, making it an intuitive and efficient choice for storing and managing cell data.
